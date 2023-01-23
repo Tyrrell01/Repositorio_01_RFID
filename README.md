@@ -1,6 +1,4 @@
-SERVICIO LECTOR RFID V2
-
-Texto de prueba
+SERVICIO LECTOxto de prueba
 
 
 Requerimientos( no para instalacion, sino funcionamiento)
