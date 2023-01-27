@@ -44,7 +44,7 @@ try:
 
   # 4
   print('4/9 - Otorgando permisos completos al directorio')
-  os_cmd = 'chmod 777 -R ' + directory + 'LECTOR_RFID ./.[!.]*'
+  os_cmd = 'chmod 777 -R ' + directory + 'LECTOR_RFID'
   if os.system(os_cmd) != 0:
       raise Exception()
   print(" 4/9 - Otorgados permisos completos al directorio exitosamente")
@@ -84,12 +84,12 @@ try:
   print("=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-")
 
   # 9
-  print('9/9 - Configurando IP puerto LAN')
-  os_cmd = 'ip addr add 192.168.1.201/24 dev enp1s0'
-  if os.system(os_cmd) != 0:
-      raise Exception()
-  print(" 9/9 - IP configurada exitosamente")
-  print("=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-")
+  #print('9/9 - Configurando IP puerto LAN')
+  #os_cmd = 'ip addr add 192.168.1.201/24 dev enp1s0'
+  #if os.system(os_cmd) != 0:
+  #    raise Exception()
+  #print(" 9/9 - IP configurada exitosamente")
+  #print("=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-")
 
   print("Instalacion finalizada correctamente!")
 
